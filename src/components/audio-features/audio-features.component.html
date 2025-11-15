@@ -1,0 +1,20 @@
+<div class="bg-[#181818] p-6 rounded-lg shadow-lg">
+  <h2 class="text-2xl font-bold mb-6">Your Audio Profile</h2>
+  @if (featuresAsArray().length > 0) {
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-6">
+      @for (feature of featuresAsArray(); track feature.key) {
+        <div>
+          <div class="flex justify-between items-baseline mb-1">
+            <span class="text-sm font-medium capitalize text-neutral-300">{{ feature.key }}</span>
+            <span class="text-sm font-mono text-neutral-400">{{ (feature.value * 100).toFixed(0) }}%</span>
+          </div>
+          <div class="w-full bg-neutral-700 rounded-full h-2.5">
+            <div class="bg-[#1DB954] h-2.5 rounded-full" [style.width]="getBarWidth(feature.value)"></div>
+          </div>
+        </div>
+      }
+    </div>
+  } @else {
+    <p class="text-neutral-400">Loading audio features...</p>
+  }
+</div>

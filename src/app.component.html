@@ -1,0 +1,7 @@
+<main class="text-white min-h-screen">
+  @if (!isLoggedIn()) {
+    <app-login (login)="handleLogin()"></app-login>
+  } @else {
+    <app-dashboard></app-dashboard>
+  }
+</main>

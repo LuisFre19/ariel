@@ -1,0 +1,5 @@
+{
+  "name": "Copy of My Spotify Wrap-Up",
+  "description": "An application to visualize your top Spotify tracks, artists, and audio features from a mock data set. It provides a sleek, responsive interface inspired by Spotify's own wrap-up experience.",
+  "requestFramePermissions": []
+}

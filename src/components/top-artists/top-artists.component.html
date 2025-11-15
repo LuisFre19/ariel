@@ -1,0 +1,17 @@
+<div class="bg-[#181818] p-6 rounded-lg shadow-lg h-full">
+  <h2 class="text-2xl font-bold mb-4">Your Top Artists</h2>
+  <ul class="space-y-4">
+    @for (artist of artists(); track artist.name; let i = $index) {
+      <li class="flex items-center space-x-4 p-2 rounded-md transition-colors hover:bg-neutral-800/50">
+        <span class="text-lg font-semibold text-neutral-400 w-6 text-center">{{ i + 1 }}</span>
+        <img [ngSrc]="artist.imageUrl" width="50" height="50" class="rounded-full" alt="Image of {{ artist.name }}">
+        <div class="flex-grow">
+          <p class="font-medium text-white">{{ artist.name }}</p>
+          <p class="text-sm text-neutral-400">{{ artist.genre }}</p>
+        </div>
+      </li>
+    } @empty {
+      <p class="text-neutral-400">Loading top artists...</p>
+    }
+  </ul>
+</div>

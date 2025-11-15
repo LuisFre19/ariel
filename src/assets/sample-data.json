@@ -1,0 +1,80 @@
+{
+  "tracks": [
+    {
+      "name": "Blinding Lights",
+      "artist": "The Weeknd",
+      "albumArtUrl": "https://picsum.photos/seed/track1/100/100"
+    },
+    {
+      "name": "As It Was",
+      "artist": "Harry Styles",
+      "albumArtUrl": "https://picsum.photos/seed/track2/100/100"
+    },
+    {
+      "name": "good 4 u",
+      "artist": "Olivia Rodrigo",
+      "albumArtUrl": "https://picsum.photos/seed/track3/100/100"
+    },
+    {
+      "name": "Levitating",
+      "artist": "Dua Lipa",
+      "albumArtUrl": "https://picsum.photos/seed/track4/100/100"
+    },
+    {
+      "name": "MONTERO (Call Me By Your Name)",
+      "artist": "Lil Nas X",
+      "albumArtUrl": "https://picsum.photos/seed/track5/100/100"
+    },
+    {
+      "name": "Stay",
+      "artist": "The Kid LAROI, Justin Bieber",
+      "albumArtUrl": "https://picsum.photos/seed/track6/100/100"
+    },
+    {
+      "name": "Heat Waves",
+      "artist": "Glass Animals",
+      "albumArtUrl": "https://picsum.photos/seed/track7/100/100"
+    },
+    {
+      "name": "Shivers",
+      "artist": "Ed Sheeran",
+      "albumArtUrl": "https://picsum.photos/seed/track8/100/100"
+    }
+  ],
+  "artists": [
+    {
+      "name": "Taylor Swift",
+      "imageUrl": "https://picsum.photos/seed/artist1/100/100",
+      "genre": "Pop"
+    },
+    {
+      "name": "Drake",
+      "imageUrl": "https://picsum.photos/seed/artist2/100/100",
+      "genre": "Hip Hop"
+    },
+    {
+      "name": "Bad Bunny",
+      "imageUrl": "https://picsum.photos/seed/artist3/100/100",
+      "genre": "Reggaeton"
+    },
+    {
+      "name": "The Weeknd",
+      "imageUrl": "https://picsum.photos/seed/artist4/100/100",
+      "genre": "R&B/Soul"
+    },
+    {
+      "name": "Billie Eilish",
+      "imageUrl": "https://picsum.photos/seed/artist5/100/100",
+      "genre": "Alternative"
+    }
+  ],
+  "audioFeatures": {
+    "danceability": 0.78,
+    "energy": 0.85,
+    "valence": 0.65,
+    "acousticness": 0.12,
+    "instrumentalness": 0.05,
+    "liveness": 0.23,
+    "speechiness": 0.08
+  }
+}
